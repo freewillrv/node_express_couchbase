@@ -13,6 +13,7 @@ Create the Document - sales_doc -- inside doc create view - sales_active
 
 Refer Couchbase documentation site on help/ reading on this topic. I have added the code for view in DB Config
 
+```
 // This is a Couchbase view for active sales
 function (doc, meta) {
   if(meta.id.includes("sale")){
@@ -24,10 +25,12 @@ function (doc, meta) {
     }
   }
 }
+```
 
 # URL Patterns to test
 
 ## For Adding Sale Use JSON Structure - 
+```
 {
   "productName": "I Phone 444",
   "prodDesc": "Iphone",
@@ -37,7 +40,7 @@ function (doc, meta) {
   "startDate": "2016-09-14",
   "sellerId" : "tonystark@gmail.com"
 }
-
+```
 URL - POST - http://localhost:3000/freewillrv/sales
 
 ## Fetching data from Active sales view
