@@ -1,0 +1,9 @@
+{
+    "couchbase": {
+        "server": "127.0.0.1:8091",
+        "bucket": "rahul_couchbase",
+        "password": "password",
+        "doc_name": "sales_doc",
+        "view_name": "sales_active"
+    }
+}
