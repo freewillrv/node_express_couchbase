@@ -10,8 +10,7 @@ Create Data Bucket "rahul_couchbase" and set password to "password" - Check the 
 settings for the project. Check config Image in Branch. Run following Query to make the Bucket queriable
 Read here for details - http://developer.couchbase.com/documentation/server/current/indexes/indexing-overview.html, http://developer.couchbase.com/documentation/server/current/n1ql/n1ql-language-reference/createprimaryindex.html
 
-```CREATE PRIMARY INDEX `rahul_couchbase_index` ON `rahul_couchbase` 
-```
+CREATE PRIMARY INDEX `rahul_couchbase_index` ON `rahul_couchbase` 
 
 Create the Document - sales_doc -- inside doc create view - sales_active
 
