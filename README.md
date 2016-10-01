@@ -1,5 +1,5 @@
 # node_express_couchbase
-A Sample App that uses Node + Express Module for REST Webservices + Couchbase SDK for NPM. This needs to be testing using 
+A Sample App that uses Node + Express Module for REST Webservices + Couchbase + SDK Database NOSQL. This needs to be testing using 
 REST Clients like POST Man
 
 #Prerequisites
